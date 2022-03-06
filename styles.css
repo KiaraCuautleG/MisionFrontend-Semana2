@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-image: url(space.png);
+}
+.logo{
+    width: 120px;
+    height: 120px;
+}
+ header{
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr 1fr;
+     background-color: #fc615f;
+ }
+ .logo{
+     grid-column: 1/3;
+     padding: 0px 40px 0px 55px;
+ }
+ .container{
+     text-align: center;
+     
+     height: 100%;
+ }
+ ul{
+     grid-column: 3/5;
+     display: flex;
+     flex-direction: row;
+     margin: 50px;
+ }
+ .menu{
+     display: flex;
+     flex-direction: column;
+     text-align: justify;
+     justify-content: center;
+     padding: 15px 50px;
+     background: #ffff;
+     width: 500px;
+     margin: 30px auto;
+ }
+li{
+    margin: 0px 40px 0px 30px;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #ffff;
+}
+section{
+    margin: 0 auto;
+    text-align: center;
+}
+.imageCenter{
+    margin: 30px;
+}
+
+.pedidos{
+    margin: auto;
+    background: #ffff;
+}
+td{
+    margin: 10px 20px;
+    padding: 10px 20px;
+}
+.containerBuy{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.containerForm{
+    text-align: center;
+    grid-column: 2/4;   
+    background: #ffff;
+    grid-row: 1/2;
+    height: 100%;
+}
+.containerData{
+    margin: 30px 10px;
+    background: #ffff;
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    background: #fc615f;
+    text-align: center;
+    justify-content: center;
+
+}
+p{
+    margin: 20px;
+}
