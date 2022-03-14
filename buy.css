@@ -1,0 +1,36 @@
+.containerBuy{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.containerForm{
+    grid-column: 2/4;   
+    background: #ffff;
+    grid-row: 1/2;
+    height: 100%;
+}
+.containerData{
+    margin: 30px auto;
+    background: #ffff;
+}
+input{
+    margin: 0px 20px;
+}
+.description{
+    width: 400px;
+    height: 100px;
+}
+.containerButton{
+    display: flex;
+    text-align: center;
+    margin: auto;
+}
+.submit{
+    margin: 20px;
+    width: 100px;
+    height: 40px;
+    color: #ffff;
+    background: #fc615f;
+    font-size: 15px;
+    border-style: none;
+    
+}
